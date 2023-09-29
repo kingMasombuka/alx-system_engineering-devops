@@ -1,5 +1,3 @@
 #!/bin/bash
 # This script list all running procceses
-echo "Process List:"
-echo "--------------------"
-ps -e -o ppid,pid,user,%cpu,%mem,cmd --forest
+ps -e -o user,pid,%cpu,%mem,cmd --forest
