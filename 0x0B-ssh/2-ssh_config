@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+#creates ssl client configuration
 Host *
 	passwordAuthentification no
 	IdentityFile ~/.ssh/school
